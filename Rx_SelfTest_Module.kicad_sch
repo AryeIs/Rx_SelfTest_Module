@@ -5571,6 +5571,12 @@
 		(uuid "8e5a15bf-c682-4b2c-8dd7-f76826f18776")
 	)
 	(junction
+		(at 40.64 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f860aa1-f10f-4943-af1c-e9048044ea49")
+	)
+	(junction
 		(at 210.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7190,7 +7196,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 44.45) (xy 40.64 69.85)
+			(xy 40.64 44.45) (xy 40.64 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7660,6 +7666,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 57.15) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6548c582-0d85-4da9-a55d-183d1cd1ca92")
+	)
+	(wire
+		(pts
 			(xy 88.9 271.78) (xy 88.9 276.86)
 		)
 		(stroke
@@ -8027,6 +8043,16 @@
 			(type default)
 		)
 		(uuid "887a1dc2-b14b-46fe-bd23-bf9995903c75")
+	)
+	(wire
+		(pts
+			(xy 31.75 57.15) (xy 40.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896a87ae-f7da-4fcb-889a-71ffabac56f8")
 	)
 	(wire
 		(pts
@@ -12729,7 +12755,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA-J-P-H-ST-TH1"
+		(property "Value" "132134-15"
 			(at 29.0068 268.8336 0)
 			(effects
 				(font
@@ -12737,7 +12763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bynet_SMA:SMA_STR_SAMTEC_SMA-J-P-X-ST-TH1"
+		(property "Footprint" "bynet_SMA:SMA_SMD+TH_Amphenol_RF_132134-15"
 			(at 29.21 274.32 0)
 			(effects
 				(font
@@ -12747,7 +12773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samtec.com/products/sma-j-p-h-st-th1"
+		(property "Datasheet" "https://www.amphenolrf.com/132134-15.html"
 			(at 29.21 274.32 0)
 			(effects
 				(font
@@ -12766,7 +12792,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg P/N" "SMA-J-P-H-ST-TH1"
+		(property "mfg P/N" "132134-15"
 			(at 29.21 274.32 0)
 			(effects
 				(font
@@ -12775,7 +12801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtec"
+		(property "Manufacturer" "Amphenol RF"
 			(at 29.21 274.32 0)
 			(effects
 				(font
@@ -14932,7 +14958,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA-J-P-H-ST-TH1"
+		(property "Value" "132134-15"
 			(at 29.0068 207.8736 0)
 			(effects
 				(font
@@ -14940,7 +14966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bynet_SMA:SMA_STR_SAMTEC_SMA-J-P-X-ST-TH1"
+		(property "Footprint" "bynet_SMA:SMA_SMD+TH_Amphenol_RF_132134-15"
 			(at 29.21 213.36 0)
 			(effects
 				(font
@@ -14950,7 +14976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samtec.com/products/sma-j-p-h-st-th1"
+		(property "Datasheet" "https://www.amphenolrf.com/132134-15.html"
 			(at 29.21 213.36 0)
 			(effects
 				(font
@@ -14969,7 +14995,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg P/N" "SMA-J-P-H-ST-TH1"
+		(property "mfg P/N" "132134-15"
 			(at 29.21 213.36 0)
 			(effects
 				(font
@@ -14978,7 +15004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtec"
+		(property "Manufacturer" "Amphenol RF"
 			(at 29.21 213.36 0)
 			(effects
 				(font
@@ -15055,7 +15081,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA-J-P-H-ST-TH1"
+		(property "Value" "132134-15"
 			(at 29.0068 248.5136 0)
 			(effects
 				(font
@@ -15063,7 +15089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bynet_SMA:SMA_STR_SAMTEC_SMA-J-P-X-ST-TH1"
+		(property "Footprint" "bynet_SMA:SMA_SMD+TH_Amphenol_RF_132134-15"
 			(at 29.21 254 0)
 			(effects
 				(font
@@ -15073,7 +15099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samtec.com/products/sma-j-p-h-st-th1"
+		(property "Datasheet" "https://www.amphenolrf.com/132134-15.html"
 			(at 29.21 254 0)
 			(effects
 				(font
@@ -15092,7 +15118,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg P/N" "SMA-J-P-H-ST-TH1"
+		(property "mfg P/N" "132134-15"
 			(at 29.21 254 0)
 			(effects
 				(font
@@ -15101,7 +15127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtec"
+		(property "Manufacturer" "Amphenol RF"
 			(at 29.21 254 0)
 			(effects
 				(font
@@ -15178,7 +15204,7 @@
 				)
 			)
 		)
-		(property "Value" "SMA-J-P-H-ST-TH1"
+		(property "Value" "132134-15"
 			(at 29.0068 226.9236 0)
 			(effects
 				(font
@@ -15186,7 +15212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bynet_SMA:SMA_STR_SAMTEC_SMA-J-P-X-ST-TH1"
+		(property "Footprint" "bynet_SMA:SMA_SMD+TH_Amphenol_RF_132134-15"
 			(at 29.21 232.41 0)
 			(effects
 				(font
@@ -15196,7 +15222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samtec.com/products/sma-j-p-h-st-th1"
+		(property "Datasheet" "https://www.amphenolrf.com/132134-15.html"
 			(at 29.21 232.41 0)
 			(effects
 				(font
@@ -15215,7 +15241,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfg P/N" "SMA-J-P-H-ST-TH1"
+		(property "mfg P/N" "132134-15"
 			(at 29.21 232.41 0)
 			(effects
 				(font
@@ -15224,7 +15250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtec"
+		(property "Manufacturer" "Amphenol RF"
 			(at 29.21 232.41 0)
 			(effects
 				(font

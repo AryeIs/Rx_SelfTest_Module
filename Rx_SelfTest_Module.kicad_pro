@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.64,
+          "width": 0.64
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -48,11 +48,55 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.254
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|104314300|207107498|c896656f-ab6d-4b19-8753-6bd05e83f822|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|105270000|29920000|e270a1c2-d39d-40af-b293-56c22d643dae|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|125260000|259450000|402efdc5-42e7-478e-90a7-793eee266430|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|129074000|119400000|c8d10af9-f313-417a-af3a-cdac43584262|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|130179000|225350000|d14652c1-b922-4dc2-a4cc-8716492e4c4c|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|135260000|104450000|05ae988f-3f73-437a-bb53-850cec220d1a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|141270000|77920000|56e7f636-8093-4cfe-91b0-b12c9c4eb6b8|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|143831000|137332000|93456866-6645-4f72-976a-0f3d7b5c620f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|145830000|150249000|727dec5c-15c8-4c0e-b6a9-17fb7c849701|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|145860000|197750000|d02292c8-d04a-4295-834a-fe63c65f8ee9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|153270000|29920000|806faa4e-29b7-45a0-846f-7bcb14c76ba9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|154760000|259450000|f16e9d11-e28d-4738-9697-5f4ffe85c0c1|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|165270000|77920000|f54a0dbe-420b-456f-b8cf-4ad4580bc714|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|167760000|104450000|0d77ed60-2309-4445-9c65-665427d926e9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|167760000|131950000|8b05fcaa-0fe0-461e-af7a-075006a62963|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|167760000|161950000|c43da7c0-cfe0-436a-b9fe-e68a06552398|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|167760000|191950000|176d19d1-4888-48fe-b962-2864399a3726|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|167760000|226950000|977e1b40-0779-4abb-b3dc-ee9d37c3ac12|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|42760000|104450000|13f45c34-fed4-4790-9ac5-3462b653a6f7|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|42760000|131950000|98ca7e65-6ea5-42eb-a932-a8b005e58afd|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|42760000|161950000|1d81d25a-1ee9-4357-942b-c52e5640ff6f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|42760000|191950000|f32e62fb-4e56-413f-ab49-efe7624443fb|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|42760000|226950000|6759a534-f250-4def-bb3a-91e8e1146690|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|45270000|77920000|c0a238f3-8e65-49cb-996e-5603a2e1d8de|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|55760000|259450000|d4e9aa03-3075-47d9-aa9a-ea9f87d37446|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|57270000|29920000|c15681b0-4964-4df5-9e26-4fec5020f59a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|64760000|197750000|95a74ef8-618c-4c5b-909a-2b999f38e2bc|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|64760000|225350000|7a20e293-ff52-4c44-ae7a-909d4264bfa7|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|64799000|150249000|e1347761-92b9-4c4d-9253-a5b12fcf38bc|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|69270000|77920000|4a6f19c5-5ebb-40ed-9da6-ffed753d4e87|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|70273000|117863000|d6420586-2c6b-4665-ab36-23f5a890f5d6|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|70755000|134030000|ab7533c5-379d-409a-8d35-9ad258ea7a4c|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|75260000|104450000|2d376e40-8d70-4873-aaba-756f4076bb9c|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|79900000|225350000|c90eae20-83eb-41cf-a624-2cf39dc2b54e|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|84946000|191110000|25e9b4b6-a037-4ce4-8f55-1645e5520b09|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|85068000|144449000|348d48f3-c58f-4972-be99-15387e9dffc6|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|85260000|259450000|c69d2c09-f894-4430-9a39-15a49eec8cf7|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -120,10 +164,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15239999999999998,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.07619999999999999,
+        "min_via_diameter": 0.30479999999999996,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -170,7 +214,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -197,7 +243,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -437,7 +488,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.3302,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -465,10 +516,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "dxfOutput",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Rx_SelfTest_Module.step",
+      "step": "Rx_SelfTest_Module_final.step",
       "svg": "",
       "vrml": ""
     },
@@ -580,6 +631,6 @@
   ],
   "text_variables": {
     "PART_NAME": "RX Self Test Module",
-    "PART_NUMBER": "BTSxxxxxxxxA"
+    "PART_NUMBER": "BTS73420714A"
   }
 }
